@@ -1,0 +1,100 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-image: url("img/webBG.jpg");
+}
+
+body img {
+    position: absolute;
+    top: 30px;
+    left: 500px;
+    height: 600px;
+    width: 400px;
+}
+.home {
+    position: relative;
+    top: 30px;
+    left: 400px;
+    background-color: #8ccbbe;
+}
+canvas {
+    position: relative;
+    top: 30px;
+    left: 400px;
+}
+
+.button {
+    height: 50px;
+    width: 200px;
+    font-size: 20px;
+    font-weight: bold;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.button1 {
+    position: absolute;
+    top: 30px;
+    left: 100px;
+}
+
+.button2 {
+    position: absolute;
+    top: 100px;
+    left: 100px;
+}
+
+.button3 {
+    position: absolute;
+    top: 170px;
+    left: 100px;
+}
+
+.button:hover {
+    background-color:#8ccbbe;
+    color: white;
+}
+
+.instruction {
+    position: absolute;
+    top: 30px;
+    left: 1100px;
+    height: 400px;
+    width: 300px;
+    background-color: white;
+    font-weight: bold;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #8ccbbe;
+    padding: 5px 5px;
+    text-align: center;
+}
+
+.move {
+    position: relative;
+    top: 120px;
+}
+
+.eat {
+    position: relative;
+    top: 200px;
+}
+
+
+.arrow {
+    height: 150px;
+    width: 200px;
+    position: absolute;
+    top: 90px;
+    left: 1150px;
+}
+
+.apple {
+    height: 45px;
+    width: 60px;
+    position: absolute;
+    top: 300px;
+    left: 1230px;
+}
