@@ -14,7 +14,7 @@ contex.fillRect(575,3*box,box,600);
 
 //Image
 const appleImage = new Image();
-appleImage.src = "img/apple.png"
+appleImage.src = "img/Apple.png"
 
 const bgImage = new Image();
 bgImage.src = "img/BG.png"
